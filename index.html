@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Koko Quiz</title>
+</head>
+<body onload="NextQuestion(0)">
+    <main>
+        <div class="modal-container" id="score-modal">
+          
+            <div class="modal-content-container">
+              
+                <h1>Ты прошёл квиз на знание Кати Какориной!</h1>
+              
+                <div class="grade-details">
+                    <p>Я проебался : <span id="wrong-answers"></span> раз</p>
+                    <p>Дарю Кате <span id="right-answers"></p>
+                    <p ><span id="remarks"></span></p>
+                    <p>не забудь поделиться результатом </p>
+                </div>
+            
+              
+            </div>
+        </div>
+
+        <div class="game-quiz-container">
+            <h3>За каждый правильный ответ Катя получит <img src="./flower.svg" alt="" width="25"></h3>
+            <small>а за каждый неверный даст тебе по ебалу</small>
+          
+            <div class="game-details-container">
+                <h1><span id="player-score"></span></h1>
+            </div>
+
+            <div class="game-question-container">
+                <h1 id="display-question"></h1>
+            </div>
+
+            <div class="game-options-container">
+              
+               <div class="modal-container" id="option-modal">
+                 
+                    <div class="modal-content-container">
+                         <h1>Не так быстро, дружок</h1>
+                      
+                         <div class="modal-button-container">
+                            <button onclick="closeOptionModal()">Вернуться</button>
+                        </div>
+                      
+                    </div>
+                 
+               </div>
+              
+                <span>
+                    <input type="radio" id="option-one" name="option" class="radio" value="optionA" />
+                    <label for="option-one" class="option" id="option-one-label"></label>
+                </span>
+              
+
+                <span>
+                    <input type="radio" id="option-two" name="option" class="radio" value="optionB" />
+                    <label for="option-two" class="option" id="option-two-label"></label>
+                </span>
+              
+
+                <span>
+                    <input type="radio" id="option-three" name="option" class="radio" value="optionC" />
+                    <label for="option-three" class="option" id="option-three-label"></label>
+                </span>
+              
+
+                <span>
+                    <input type="radio" id="option-four" name="option" class="radio" value="optionD" />
+                    <label for="option-four" class="option" id="option-four-label"></label>
+                </span>
+
+
+            </div>
+
+            <div class="next-button-container">
+                <button class="Btn" onclick="handleNextQuestion()">
+                    Проверить
+                </button>
+                
+                
+            </div>
+
+        </div>
+    </main>
+    <script src="/js.js"></script>
+</body>
+</html>
