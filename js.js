@@ -101,7 +101,7 @@ const questions = [
         optionB: "лыжами",
         optionC: "стрельбой",
         optionD: "гимнастикой",
-        correctOption: "optionB"
+        correctOption: "optionD"
     },
 ]
 
