@@ -88,7 +88,7 @@ const questions = [
         correctOption: "optionB"
     },
     {
-        question: "Покруча ка локон светлый, буду я как.... ",
+        question: "Покручу ка локон светлый, буду я как.... ",
         optionA: "Крис Хемсворт",
         optionB: "Иден Кэпвелл",
         optionC: "Райан Гослинг",
