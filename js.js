@@ -14,8 +14,95 @@ const questions = [
         optionC: "сломанная нервная система",
         optionD: "детские рисунки",
         correctOption: "optionA"
+    },    
+    {
+        question: "Через что Катя ходила в школу",
+        optionA: "через лес",
+        optionB: "через раз",
+        optionC: "через училище связи",
+        optionD: "через церковь",
+        correctOption: "optionC"
     },
-
+    {
+        question: "Кем она еще НЕ была на Хеллуин",
+        optionA: "доктором",
+        optionB: "Круэллой",
+        optionC: "певицей в церковном хоре",
+        optionD: "матерью драконов",
+        correctOption: "optionD"
+    },
+    {
+        question: "Страна, в которой она мечтает побывать",
+        optionA: "Зверополис",
+        optionB: "Греция",
+        optionC: "Турция",
+        optionD: "Дженовия",
+        correctOption: "optionB"
+    },
+    {
+        question: "Что бы она выбрала: ",
+        optionA: "яйца Бенедикт",
+        optionB: "школу Бенедикт",
+        optionC: "Бенедикта Камбербэтча",
+        optionD: "певца Шака Бенедикта",
+        correctOption: "optionA"
+    },
+    {
+        question: "Бармен:",
+        optionA: "голубичка",
+        optionB: "черничка",
+        optionC: "вишенка",
+        optionD: "смородинка",
+        correctOption: "optionC"
+    },
+    {
+        question: "Как Катя называет свою маму:",
+        optionA: "циклон `Ольга`",
+        optionB: "тайфун `Ольга`",
+        optionC: "цунами `Ольга`",
+        optionD: "торнадо `Ольга`",
+        correctOption: "optionA"
+    },
+    {
+        question: "Как её называли в школе",
+        optionA: "Кора",
+        optionB: "Пятёрочка",
+        optionC: "Магнит",
+        optionD: "Екатерина Ра",
+        correctOption: "optionA"
+    },
+    {
+        question: "Как Катя называет свою квартиру",
+        optionA: "Колбаса",
+        optionB: "Сосиска",
+        optionC: "Спагетти",
+        optionD: "Банан",
+        correctOption: "optionB"
+    },
+    {
+        question: "Какого возраста её студенты",
+        optionA: "Катя кого-то учит?",
+        optionB: "3-14",
+        optionC: "3-12",
+        optionD: "5-16",
+        correctOption: "optionB"
+    },
+    {
+        question: "Покруча ка локон светлый, буду я как.... ",
+        optionA: "Крис Хемсворт",
+        optionB: "Иден Кэпвелл",
+        optionC: "Райан Гослинг",
+        optionD: "Кэмерон Диас",
+        correctOption: "optionB"
+    },
+    {
+        question: "Чем Катя занималась в детстве?",
+        optionA: "хернёй",
+        optionB: "лыжами",
+        optionC: "стрельбой",
+        optionD: "гимнастикой",
+        correctOption: "optionB"
+    },
 ]
 
 
