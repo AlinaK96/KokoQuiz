@@ -21,7 +21,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('https://sun9-9.userapi.com/impg/5wEdXBRVbkYzProedFD6t327HwJDsn7o3lbZZg/wWL4sOmoubE.jpg?size=1728x2160&quality=95&sign=6981db50e1fefa46d389e5126e94d10d&type=album');
+    background-image: url('./image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
