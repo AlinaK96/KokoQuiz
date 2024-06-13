@@ -28,8 +28,8 @@ main{
 }
 
 .game-quiz-container{
-    width: 40rem;
-    height: 32rem;
+    width: 100vw;
+    height: 32vh;
     background-color: rgb(111 133 122);
     color: white;
     display: flex;
