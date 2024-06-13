@@ -30,7 +30,8 @@ main{
 .game-quiz-container{
     width: 40rem;
     height: 32rem;
-    background-color: rgb(241, 217, 217);
+    background-color: rgb(111 133 122);
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,7 +92,7 @@ span label{
     cursor: pointer;
     transition: transform 0.3s;
     font-weight: 600;
-    color: rgb(22, 22, 22);
+    color: white;
 }
 
 span label:hover{
@@ -132,8 +133,8 @@ input[type=radio]:checked ~ .option {
 }
 
 .modal-content-container{
-    height: 33rem;
-    width: 40rem;
+    height: 40rem;
+    width: 45rem;
     background-color: #bdafee; 
     font-size: 20px;
     display: flex;
